@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size:8vw;
+    flex-direction: column; 
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.strip{
+    position: absolute;
+    overflow: hidden;
+}
+
+video{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit:unset;
+}
+
+.s1{
+    left: 38vw;
+    top: 3vw;
+    width: 33vw;
+    height: 5vw;
+}
+
+.s2{
+    left: 27vw;
+    top: 12vw;
+    width: 20vw;
+    height: 5vw;
+}
+
+.s3{
+    left: 37vw;
+    top: 21vw;
+    width: 25vw;
+    height: 5vw;
+}
+
+.s3 video{
+    transform: translate(-37vw,-21vh);
+}
+.s4{
+    left: 42vw;
+    top: 30vw;
+    width: 56vw;
+    height: 5vw;
+}
