@@ -21,6 +21,7 @@ body{
 .strip{
     position: absolute;
     overflow: hidden;
+    transition: all 3s;
 }
 
 video{
@@ -37,11 +38,21 @@ video{
     height: 5vw;
 }
 
+.s1t2{
+    left: 31vw;
+    width: 40vw;
+}
+
 .s2{
     left: 27vw;
     top: 12vw;
     width: 20vw;
     height: 5vw;
+}
+
+.s2t2{
+    left: 33vw;
+    width: 55vw;
 }
 
 .s3{
@@ -51,12 +62,53 @@ video{
     height: 5vw;
 }
 
+.s3t2{
+    left: 10vw;
+    width: 60vw;
+    
+}
 .s3 video{
     transform: translate(-37vw,-21vh);
 }
+
 .s4{
     left: 42vw;
     top: 30vw;
     width: 56vw;
     height: 5vw;
+}
+
+.s4t2{
+    left: 32vw;
+    width: 47vw;
+}
+
+.animation{
+    position: absolute;
+    left: 0;
+    bottom: 3vh;
+    width: 100vw;
+    text-align: center;
+
+}
+
+.text{
+    transition: opacity 3s;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.up1{
+    margin-top: -38vw;
+}
+
+.text2{
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.show{
+    opacity: 1;
 }
